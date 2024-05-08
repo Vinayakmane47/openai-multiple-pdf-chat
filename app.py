@@ -98,6 +98,8 @@ def main():
                 # create conversation chain
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
+                
+                st.sidebar.success("Done Proccesing ✔️")
 
 
 if __name__ == '__main__':
